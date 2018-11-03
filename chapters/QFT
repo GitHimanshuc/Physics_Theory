@@ -1,0 +1,44 @@
+\chapter{QFT}
+
+\section{Spinors}
+
+\begin{equation}
+    \sigma _ { 1 } = \left( \begin{array} { c c } { 0 } & { 1 } \\ { 1 } & { 0 } \end{array} \right) , \quad \sigma _ { 2 } = \left( \begin{array} { c c } { 0 } & { - i } \\ { i } & { 0 } \end{array} \right) , \quad \sigma _ { 3 } = \left( \begin{array} { c c } { 1 } & { 0 } \\ { 0 } & { - 1 } \end{array} \right)
+\end{equation}
+
+Having two contracted indices does not guarantee that the whole equation will be Lorentz invariant e.g. $\sigma^\mu \partial_\mu+m = 0 $ is not.
+
+The Lorentz generator algebra is:
+\begin{equation}
+    \left.\begin{aligned} \left[ J _ { i } , J _ { j } \right] & = i \epsilon _ { i j k } J _ { k } \\ \left[ J _ { i } , K _ { j } \right] & = i \epsilon _ { i j k } K _ { k } \\ \left[ K _ { i } , K _ { j } \right] & = - i \epsilon _ { i j k } J _ { k } \end{aligned} \right.
+\end{equation}
+
+
+\begin{equation}
+    \Lambda = \exp \left( i \theta _ { i } J _ { i } + i \beta _ { i } K _ { i } \right)
+\end{equation}
+
+Or one can use a shorthand notation:
+
+\begin{equation}
+    V ^ { \mu \nu } = \left( \begin{array} { c c c c } { 0 } & { K _ { 1 } } & { K _ { 2 } } & { K _ { 3 } } \\ { - K _ { 1 } } & { 0 } & { J _ { 3 } } & { - J _ { 2 } } \\ { - K _ { 2 } } & { - J _ { 3 } } & { 0 } & { J _ { 1 } } \\ { - K _ { 3 } } & { J _ { 2 } } & { - J _ { 1 } } & { 0 } \end{array} \right)
+\end{equation}
+
+Which gives $\Lambda _ { V } = \exp \left( i \theta _ { \mu \nu } V ^ { \mu \nu } \right)$. These V satisfy $\left[ V ^ { \mu \nu } , V ^ { \rho \sigma } \right] = i \left( g ^ { \nu \rho } V ^ { \mu \sigma } - g ^ { \mu \rho } V ^ { \nu \sigma } - g ^ { \nu \sigma } V ^ { \mu \rho } + g ^ { \mu \sigma } V ^ { \nu \rho } \right)$.
+
+\section{Dirac equation}
+
+Dirac Matrices:
+
+\begin{equation}
+    \gamma ^ { 0 } = \left( \begin{array} { c } { 1 } \\ { 1 } \end{array} \right) , \quad \gamma ^ { i } = \left( \begin{array} { c c } { 0 } & { \sigma _ { i } } \\ { - \sigma _ { i } } & { 0 } \end{array} \right)
+\end{equation}
+
+and they satisfy $\left\{ \gamma ^ { \mu } , \gamma ^ { \nu } \right\} = 2 g ^ { \mu \nu }$.
+
+
+\begin{equation}
+    \left( i \gamma ^ { \mu } \partial _ { \mu } - m \right) \psi = 0
+\end{equation}
+
+
