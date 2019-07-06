@@ -1,0 +1,52 @@
+\chapter{Cosmology and inflation}
+
+\section{Basics of Cosmology}
+
+
+\subsection{Homogeneous cosmology}
+
+Assuming that the universe is homogeneous and isotropic, one can derive \index{Friedmann-Robertson-Walker} (FRW)
+metric for the spacetime of the universe.
+
+
+\begin{equation}
+\mathrm{d} s^{2}=-\mathrm{d} t^{2}+a^{2}(t)\left(\frac{\mathrm{d} r^{2}}{1-k r^{2}}+r^{2}\left(\mathrm{d} \theta^{2}+\sin ^{2} \theta \mathrm{d} \phi^{2}\right)\right)
+\end{equation}
+
+
+
+
+$a(t)$ is a dimensionless(that`s why it usually comes in equations as a ratio) quantity called scale vector. This helps in working with the co-moving coordinates.
+
+$k$ is $0$ for flat, $1$ for positively curved(Sphere) and $-1$ for negatively curved universe (like a hyperbola). $k$ determines the global geometry, the local geometry can still vary.
+
+\begin{equation}
+\mathrm{d} s^{2}=-\mathrm{d} t^{2}+a^{2}(t)\left(\mathrm{d} \chi^{2}+\Phi_{k}\left(\chi^{2}\right)\left(\mathrm{d} \theta^{2}+\sin ^{2} \theta \mathrm{d} \phi^{2}\right)\right)
+\end{equation}
+
+\begin{equation}
+r^{2}=\Phi_{k}\left(\chi^{2}\right) \equiv\left\{\begin{array}{cc}{\sinh ^{2} \chi} & {k=-1} \\ {\chi^{2}} & {k=0} \\ {\sin ^{2} \chi} & {k=+1}\end{array}\right.
+\end{equation}
+
+
+
+Because of the FRW ansatz the evolution of the universe boils down to just one parameter, $a(t)$.
+
+\begin{equation}
+H \equiv \frac{\dot{a}}{a}
+\end{equation}
+
+$H$ is called \index{Hubble parameter}, and is positive for an expanding universe. $H$ kind of sets a natural scale in the cosmology world. For example, characteristic time-scale of the homogeneous universe is the Hubble time, $t \sim H^{-1}$ and characteristic length is Hubble length, $d \sim H^{-1}$.
+
+
+Casual structure is determined by the propagation of light in the universe, $ds^2 = 0$. To study that we define \textbf{conformal time}: 
+
+\begin{equation}
+\tau=\int \frac{\mathrm{d} t}{a(t)}
+\end{equation}
+
+Which changes the FRW metric into:
+\begin{equation}
+\mathrm{d} s^{2}=a(\tau)^{2}\left[-\mathrm{d} \tau^{2}+\left(\mathrm{d} \chi^{2}+\Phi_{k}\left(\chi^{2}\right)\left(\mathrm{d} \theta^{2}+\sin ^{2} \theta \mathrm{d} \phi^{2}\right)\right)\right]
+\end{equation}
+

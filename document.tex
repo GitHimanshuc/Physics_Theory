@@ -4,9 +4,9 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
-
-\usepackage{symbols}
-
+\usepackage{imakeidx}
+% \usepackage{symbols}
+\makeindex
 
 
 
@@ -15,7 +15,7 @@
 
 
 \author{Himanshu}
-\title{QFT notes}
+\title{Physics notes}
 
 
 
@@ -24,33 +24,11 @@
 \maketitle
 \tableofcontents
 
-
-
-
-	
-    
-\newcommand{\real}[1]{\mathbb{R}^{#1}}
-\newcommand{\reall}{\mathbb{R}}
-\newcommand{\vect}[1]{\mathbf{#1}}
-
-
-
-
-
-\chapter{First Chapter}
-\section{Introduction}
-
-
-
-	
-\subsection{This is just for testing}
-	
-Some text to check whether the things are working or not.
 	
 \chapter{Basics}
 \section{Basics}
 This is some text to get the index working.
-\glossary{gwrge}
+
 
 $\mu = \nu$
 	
@@ -102,13 +80,15 @@ $\mathcal { L } = \overline { \psi } \left( i \gamma ^ { \mu } \partial _ { \mu 
 
 
 
+\input{chapters/Cosmology_and_Inflation.tex}
 
-\input{chapters/Integral_approach}
 
 \input{chapters/QFT}
-
+\input{chapters/Integral_approach}
 \input{chapters/Basics}
 
+
+\printindex
 
 \end{document}
 \makeglossary
